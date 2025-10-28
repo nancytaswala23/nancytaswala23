@@ -40,7 +40,7 @@ I'm currently a graduate student at Northeastern University, majoring in Informa
   * Coursework: Application Engineering, User Experience Design, Data Management, Generative AI & LLMs with GraphDB
   
 * **Mumbai University** - Bachelor of Science in Data Science (2021-2024)
-  * Coursework: Machine Learning, Artificial Intelligence, Big Data, Business Intelligence,
+  * Coursework: Machine Learning, Artificial Intelligence, Big Data, Business Intelligence, Advance Python , PowerBI and Tableau , JavaScript Using NetBeans, Agile Software Engineering, Statistics and Probability
 
 ## 📊 What I'm Working On
 
@@ -54,7 +54,7 @@ I'm currently a graduate student at Northeastern University, majoring in Informa
 * 📧 Email: [taswala.n@northeastern.edu](mailto:taswala.n@northeastern.edu)
 * 💼 LinkedIn: [linkedin.com/in/nancytaswala23](https://linkedin.com/in/nancytaswala23/)
 * 🐱 GitHub: [github.com/nancytaswala23](https://github.com/nancytaswala23)
-* 📱 Phone: (857) 340-3303
+  
 
 ---
 
