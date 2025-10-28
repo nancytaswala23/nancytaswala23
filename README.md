@@ -36,7 +36,7 @@ I'm currently a graduate student at Northeastern University, majoring in Informa
 
 ## 🎓 Education
 
-* **Northeastern University** - Master of Science in Information Systems (Sept 2025 - Expected: December 2026)
+* **Northeastern University** - Master of Science in Information Systems (Sept 2024 - Expected: December 2026)
   * Coursework: Application Engineering, User Experience Design, Data Management, Generative AI & LLMs with GraphDB
   
 * **Mumbai University** - Bachelor of Science in Data Science (2021-2024)
