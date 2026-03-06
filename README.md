@@ -1,63 +1,97 @@
 # Hi there, I'm Nancy Taswala 👋
 
-Thanks for stopping by! Here's a little bit about myself...
-
-I'm currently a graduate student at Northeastern University, majoring in Information Systems. I have a strong foundation in data science, machine learning, and full-stack development with experience in building data pipelines, implementing recommendation systems, and developing data governance frameworks. I'm passionate about leveraging data and AI to solve complex business problems and enhance user experiences.
-
-## 🚀 Projects
-
-* **[BookShelf - A Recommendation Engine](https://github.com/nancytaswala23/BookShelf---A-Book-Recommendation-System)** 
-  * Implemented collaborative filtering algorithms with 50k+ daily transaction processing
-  * Published research paper in IJSREM on matrix factorization techniques
-  
-* **[MediHive - Healthcare Analytics Platform](https://github.com/nancytaswala23/Hospital-Management-System)**
-  * Designed HIPAA-compliant data governance framework and star schema models
-  * Reduced query latency by 60% and improved patient satisfaction by 25%
-  
-* **[AI-Powered Crime Investigation Using Knowledge Graph](https://github.com/nancytaswala23/Crime-Investigation-Graph-Using-Neo4j)**
-  * Built semantic data models with Neo4j and integrated NLP pipelines for entity extraction
-  * Implemented RAG-based AI reasoning with LangChain for natural language queries
-
-## 📚 Research & Publications
-
-* **[BookShelf - A Book Recommendation System Using Collaborative Filtering](https://ijsrem.com/download/bookshelf-a-book-recommendation-system-using-collaborative-filtering/)** | IJSREM
-  * Validated collaborative filtering algorithms on 10,000+ user ratings dataset
-  * Implemented matrix factorization to address data sparsity challenges
-
-## 💻 Technologies & Tools
-
-* **Programming & Analytics:** Python, R, SQL, JavaScript
-* **Statistical Methods:** Hypothesis Testing, Regression, Forecasting, Chi-Squared, T-Tests
-* **Databases:** MySQL, Microsoft SQL Server, Google BigQuery, Neo4j
-* **Visualization & BI:** Tableau, PowerBI, AWS QuickSight, MicroStrategy, Excel
-* **Cloud & Big Data:** AWS, Hadoop, Data Modeling, Star Schema Design
-* **Frameworks & Libraries:** LangChain, RAG, NLP, Pygame, Data Pipeline Development
-* **Business Tools:** Microsoft Office Suite, Pivot Tables, Analytics, Forecasting
-
-## 🎓 Education
-
-* **Northeastern University** - Master of Science in Information Systems (Sept 2024 - Expected: December 2026)
-  * Coursework: Application Engineering, User Experience Design, Data Management, Generative AI & LLMs with GraphDB
-  
-* **Mumbai University** - Bachelor of Science in Data Science (2021-2024)
-  * Coursework: Machine Learning, Artificial Intelligence, Big Data, Business Intelligence, Advance Python , PowerBI and Tableau , JavaScript Using NetBeans, Agile Software Engineering, Statistics and Probability
-
-## 📊 What I'm Working On
-
-* Exploring advanced applications of Knowledge Graphs and LLMs
-* Building scalable recommendation systems with real-time processing capabilities
-* Implementing data governance solutions for healthcare and financial sectors
-* Contributing to open-source projects in machine learning and data engineering
-
-## 🤝 Let's Connect!
-
-* 📧 Email: [taswala.n@northeastern.edu](mailto:taswala.n@northeastern.edu)
-* 💼 LinkedIn: [linkedin.com/in/nancytaswala23](https://linkedin.com/in/nancytaswala23/)
-* 🐱 GitHub: [github.com/nancytaswala23](https://github.com/nancytaswala23)
-  
+Thanks for stopping by! I'm a graduate student at Northeastern University (MS Information Systems) and an AI Engineer at CareerGPT, where I build Knowledge Graph and GraphRAG systems using Python and Neo4j. I'm passionate about distributed systems, AI-powered automation, and satellite connectivity infrastructure.
 
 ---
 
-If you want to collaborate on projects, discuss data science, or just have a chat about technology, feel free to reach out! I'm always interested in connecting with fellow developers and data enthusiasts.
+## 🚀 Featured Projects
+
+### 🛰️ Amazon Leo — Satellite Infrastructure Series
+
+* **[GroundLink – Distributed Ground Station Task Scheduler](https://github.com/nancytaswala23/groundlink)**
+  * Engineered a fault-tolerant distributed task scheduler using priority queue algorithm (O log n) across 4 ground stations with zero task loss during failures
+  * Built automatic station failure detection, real-time task reassignment, and conflict resolution with full PostgreSQL audit trail
+  * `Python` `FastAPI` `Docker` `GitHub Actions` `Distributed Systems`
+
+* **[KuiperOps – AI-Powered Satellite Operations Agent](https://github.com/nancytaswala23/kuiperops)**
+  * Built an AI agent using Groq LLaMA3 that detects anomalies across 6 satellite failure types and auto-generates incident runbooks, reducing diagnosis time by 80%
+  * Integrated LLM via REST API with structured JSON output, retry logic, and fallback diagnosis achieving 100% response reliability
+  * `Python` `Groq LLaMA3` `FastAPI` `AWS DynamoDB` `Docker` `LLM Agents`
+
+* **[EdgeSync – Offline-First Remote Device Sync](https://github.com/nancytaswala23/edgesync)**
+  * Engineered an offline-first sync system enabling remote devices to queue 1000+ records locally in SQLite during satellite outages and auto-sync to AWS DynamoDB on reconnect
+  * Implemented 3-strategy conflict resolution with exponential backoff retry achieving zero data loss across unreliable connections
+  * `Python` `FastAPI` `SQLite` `AWS DynamoDB` `Docker` `Fault-Tolerant`
+
+* **[TrafficWatch – Real-Time Satellite Network Traffic Monitor](https://github.com/nancytaswala23/trafficwatch)**
+  * Built a 3-stage real-time pipeline (validate → enrich → store) monitoring 5 satellite nodes across 4 continents with Z-score anomaly detection
+  * Engineered live SSE streaming endpoint flagging WARNING (2σ) and CRITICAL (3σ) deviations in bandwidth, latency, and packet loss in real time
+  * `Python` `FastAPI` `Z-Score ML` `SSE Streaming` `Docker` `Anomaly Detection`
+
+---
+
+### 🤖 AI & Knowledge Graph Projects
+
+* **[AI-Powered Crime Investigation Using Knowledge Graph](https://github.com/nancytaswala23/Crime-Investigation-Graph-Using-Neo4j)**
+  * Built NLP and RAG pipelines with LangChain enabling natural language querying over a Neo4j Knowledge Graph built from 30K+ multi-source crime records
+  * Designed semantic data model with automated entity extraction and data lineage tracking
+  * `Python` `Neo4j` `LangChain` `RAG` `NLP` `Knowledge Graphs`
+
+* **[BookShelf – Book Recommendation System](https://github.com/nancytaswala23/BookShelf---A-Book-Recommendation-System)**
+  * Developed collaborative filtering recommendation engine trained on 10K+ user ratings with matrix factorization to address data sparsity
+  * Published research paper in IJSREM validating algorithm performance across multiple evaluation metrics
+  * `Python` `Scikit-learn` `Flask` `Collaborative Filtering`
+
+* **[MediHive – Healthcare Analytics Platform](https://github.com/nancytaswala23/Hospital-Management-System)**
+  * Designed HIPAA-compliant data governance framework and star schema models reducing query latency by 60%
+  * `Python` `Power BI` `Predictive Modeling` `Data Governance`
+
+---
+
+## 💻 Technologies & Tools
+
+* **Languages:** Python, Java, SQL, JavaScript, R, Cypher
+* **Cloud & DevOps:** AWS (DynamoDB, SQS, Lambda), Docker, GitHub Actions CI/CD, FastAPI
+* **AI/ML:** LLMs, GraphRAG, Knowledge Graphs, Neo4j, RAG, LangChain, Scikit-learn, NLP
+* **Databases:** PostgreSQL, MySQL, SQL Server, Oracle SQL, Neo4j, DynamoDB, SQLite
+* **Visualization:** Power BI, Tableau, AWS QuickSight, Excel
+
+---
+
+## 📚 Research & Publications
+
+* **[BookShelf – A Book Recommendation System Using Collaborative Filtering](https://ijsrem.com/download/bookshelf-a-book-recommendation-system-using-collaborative-filtering/)** | IJSREM
+  * Validated collaborative filtering on 10,000+ user ratings; implemented matrix factorization to address data sparsity
+
+---
+
+## 🎓 Education
+
+* **Northeastern University** — MS Information Systems (Aug 2024 – Dec 2026)
+  * Coursework: Application Engineering, Data Management, Generative AI & LLMs with GraphDB, UX Design
+
+* **Mumbai University** — BS Data Science (2021 – 2024)
+  * Coursework: Machine Learning, AI, Big Data, Business Intelligence, Agile Software Engineering
+
+---
+
+## 📊 What I'm Working On
+
+* Building satellite infrastructure systems (distributed schedulers, AI ops agents, offline-first sync)
+* Exploring advanced Knowledge Graph and LLM applications at CareerGPT
+* Contributing to open-source projects in distributed systems and AI engineering
+
+---
+
+## 🤝 Let's Connect!
+
+* 📧 [taswala.n@northeastern.edu](mailto:taswala.n@northeastern.edu)
+* 💼 [linkedin.com/in/nancytaswala23](https://linkedin.com/in/nancytaswala23/)
+* 🐱 [github.com/nancytaswala23](https://github.com/nancytaswala23)
+* 🌐 [nancytaswala23.github.io](https://nancytaswala23.github.io/)
+
+---
+
+If you want to collaborate on distributed systems, AI, or satellite tech — feel free to reach out!
 
 ⭐️ From [nancytaswala23](https://github.com/nancytaswala23)
