@@ -69,17 +69,21 @@ Collaborative filtering with SVM and Random Forest models on sparse user data, i
 ## Experience
 
 **AI Engineer, Knowledge Graphs & GraphRAG** | Cernuvo | Jan 2026 to Jul 2026
+
 Built Neo4j knowledge graphs, GraphRAG pipelines and FastAPI microservices for a live platform, working directly with the technical co-founder on architecture.
 
 **Research Assistant** | Dept. of Data Science, University of Mumbai | Jun 2023 to Apr 2024
+
 Led a recommendation systems study from scoping to peer-reviewed publication.
 
 ## Education
 
 **Northeastern University** | MS Information Systems | Aug 2024 to Dec 2026
+
 Application Engineering, Data Management, Generative AI and LLMs with Graph Databases, UX Design
 
 **University of Mumbai** | BS Data Science | 2021 to 2024
+
 Machine Learning, Artificial Intelligence, Big Data, Business Intelligence, Agile Software Engineering
 
 ---
