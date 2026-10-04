@@ -1,97 +1,91 @@
-# Hi there, I'm Nancy Taswala 👋
+![Nancy Taswala, Full-Stack AI Engineer](assets/header.png)
 
-Thanks for stopping by! I'm a graduate student at Northeastern University (MS Information Systems) and an AI Engineer at CareerGPT, where I build Knowledge Graph and GraphRAG systems using Python and Neo4j. I'm passionate about distributed systems, AI-powered automation, and satellite connectivity infrastructure.
+# Hi, I'm Nancy Taswala
 
----
+I'm a **Full-Stack AI Engineer** who builds AI that understands connected data. My work sits where knowledge graphs meet large language models: designing Neo4j graphs, building GraphRAG pipelines, and shipping the APIs and interfaces around them.
 
-## 🚀 Featured Projects
-
-### 🛰️ Amazon Leo — Satellite Infrastructure Series
-
-* **[GroundLink – Distributed Ground Station Task Scheduler](https://github.com/nancytaswala23/groundlink)**
-  * Engineered a fault-tolerant distributed task scheduler using priority queue algorithm (O log n) across 4 ground stations with zero task loss during failures
-  * Built automatic station failure detection, real-time task reassignment, and conflict resolution with full PostgreSQL audit trail
-  * `Python` `FastAPI` `Docker` `GitHub Actions` `Distributed Systems`
-
-* **[KuiperOps – AI-Powered Satellite Operations Agent](https://github.com/nancytaswala23/kuiperops)**
-  * Built an AI agent using Groq LLaMA3 that detects anomalies across 6 satellite failure types and auto-generates incident runbooks, reducing diagnosis time by 80%
-  * Integrated LLM via REST API with structured JSON output, retry logic, and fallback diagnosis achieving 100% response reliability
-  * `Python` `Groq LLaMA3` `FastAPI` `AWS DynamoDB` `Docker` `LLM Agents`
-
-* **[EdgeSync – Offline-First Remote Device Sync](https://github.com/nancytaswala23/edgesync)**
-  * Engineered an offline-first sync system enabling remote devices to queue 1000+ records locally in SQLite during satellite outages and auto-sync to AWS DynamoDB on reconnect
-  * Implemented 3-strategy conflict resolution with exponential backoff retry achieving zero data loss across unreliable connections
-  * `Python` `FastAPI` `SQLite` `AWS DynamoDB` `Docker` `Fault-Tolerant`
-
-* **[TrafficWatch – Real-Time Satellite Network Traffic Monitor](https://github.com/nancytaswala23/trafficwatch)**
-  * Built a 3-stage real-time pipeline (validate → enrich → store) monitoring 5 satellite nodes across 4 continents with Z-score anomaly detection
-  * Engineered live SSE streaming endpoint flagging WARNING (2σ) and CRITICAL (3σ) deviations in bandwidth, latency, and packet loss in real time
-  * `Python` `FastAPI` `Z-Score ML` `SSE Streaming` `Docker` `Anomaly Detection`
+Most recently I was an **AI Engineer at Cernuvo**, where I built knowledge graph and GraphRAG features for a live platform serving thousands of users. I'm completing my **MS in Information Systems at Northeastern University** (December 2026) and I'm open to full-time roles in AI, ML and full-stack AI engineering from January 2027.
 
 ---
 
-### 🤖 AI & Knowledge Graph Projects
+## Featured projects
 
-* **[AI-Powered Crime Investigation Using Knowledge Graph](https://github.com/nancytaswala23/Crime-Investigation-Graph-Using-Neo4j)**
-  * Built NLP and RAG pipelines with LangChain enabling natural language querying over a Neo4j Knowledge Graph built from 30K+ multi-source crime records
-  * Designed semantic data model with automated entity extraction and data lineage tracking
-  * `Python` `Neo4j` `LangChain` `RAG` `NLP` `Knowledge Graphs`
+### Satellite infrastructure series
+*Personal projects exploring the distributed systems behind LEO satellite networks.*
 
-* **[BookShelf – Book Recommendation System](https://github.com/nancytaswala23/BookShelf---A-Book-Recommendation-System)**
-  * Developed collaborative filtering recommendation engine trained on 10K+ user ratings with matrix factorization to address data sparsity
-  * Published research paper in IJSREM validating algorithm performance across multiple evaluation metrics
-  * `Python` `Scikit-learn` `Flask` `Collaborative Filtering`
+**[GroundLink: Distributed Ground Station Task Scheduler](https://github.com/nancytaswala23/groundlink)**
+Fault-tolerant scheduler that allocates satellite downlink windows across 4 ground stations using an O(log n) priority queue. Detects station failures in real time, reassigns tasks automatically with zero task loss, and keeps a full PostgreSQL audit trail of every scheduling decision.
+`Python` `FastAPI` `PostgreSQL` `Docker` `GitHub Actions`
 
-* **[MediHive – Healthcare Analytics Platform](https://github.com/nancytaswala23/Hospital-Management-System)**
-  * Designed HIPAA-compliant data governance framework and star schema models reducing query latency by 60%
-  * `Python` `Power BI` `Predictive Modeling` `Data Governance`
+**[OrbitOps: AI Satellite Operations Agent](https://github.com/nancytaswala23/kuiperops)**
+LLM agent that ingests satellite telemetry, detects 6 types of failure (signal loss, latency, packet loss, power and thermal anomalies), and generates incident diagnoses and runbooks, cutting diagnosis time by 80%. Structured JSON output, retry logic and a fallback diagnosis path mean every request returns a usable result.
+`Python` `Llama 3 (Groq)` `FastAPI` `AWS DynamoDB` `Docker`
 
----
+**[EdgeSync: Offline-First Remote Device Sync](https://github.com/nancytaswala23/edgesync)**
+Lets remote devices in places like schools and hospitals keep working through connectivity outages by queuing 1,000+ records locally in SQLite and syncing to AWS DynamoDB on reconnect. Three conflict-resolution strategies and exponential backoff retry ensure zero data loss.
+`Python` `FastAPI` `SQLite` `AWS DynamoDB` `Docker`
 
-## 💻 Technologies & Tools
+**[TrafficWatch: Real-Time Satellite Network Monitor](https://github.com/nancytaswala23/trafficwatch)**
+Three-stage streaming pipeline (validate, enrich, store) monitoring 5 satellite nodes across 4 continents. Per-node Z-score anomaly detection flags warning (2σ) and critical (3σ) deviations in bandwidth, latency and packet loss, with live alerts over Server-Sent Events.
+`Python` `FastAPI` `SSE` `Anomaly Detection` `Docker`
 
-* **Languages:** Python, Java, SQL, JavaScript, R, Cypher
-* **Cloud & DevOps:** AWS (DynamoDB, SQS, Lambda), Docker, GitHub Actions CI/CD, FastAPI
-* **AI/ML:** LLMs, GraphRAG, Knowledge Graphs, Neo4j, RAG, LangChain, Scikit-learn, NLP
-* **Databases:** PostgreSQL, MySQL, SQL Server, Oracle SQL, Neo4j, DynamoDB, SQLite
-* **Visualization:** Power BI, Tableau, AWS QuickSight, Excel
+### AI and knowledge graphs
 
----
+**[AI-Powered Crime Investigation with Knowledge Graphs](https://github.com/nancytaswala23/Crime-Investigation-Graph-Using-Neo4j)**
+Ask questions in plain English over a Neo4j knowledge graph built from 30K+ multi-source crime records. LangChain RAG pipeline with automated entity extraction, data lineage tracking, retrieval evaluation and output guardrails, plus a React frontend.
+`Python` `Neo4j` `LangChain` `RAG` `NLP` `React`
 
-## 📚 Research & Publications
+**[BookShelf: Book Recommendation System](https://github.com/nancytaswala23/BookShelf---A-Book-Recommendation-System)**
+Collaborative filtering recommendation engine using SVM, Random Forest and matrix factorisation to handle sparse rating data, improving accuracy by 35% over baseline. Published in IJSREM.
+`Python` `Scikit-learn` `Flask` `Recommender Systems`
 
-* **[BookShelf – A Book Recommendation System Using Collaborative Filtering](https://ijsrem.com/download/bookshelf-a-book-recommendation-system-using-collaborative-filtering/)** | IJSREM
-  * Validated collaborative filtering on 10,000+ user ratings; implemented matrix factorization to address data sparsity
-
----
-
-## 🎓 Education
-
-* **Northeastern University** — MS Information Systems (Aug 2024 – Dec 2026)
-  * Coursework: Application Engineering, Data Management, Generative AI & LLMs with GraphDB, UX Design
-
-* **Mumbai University** — BS Data Science (2021 – 2024)
-  * Coursework: Machine Learning, AI, Big Data, Business Intelligence, Agile Software Engineering
+**[MediHive: Healthcare Management Platform](https://github.com/nancytaswala23/Hospital-Management-System)**
+Role-based hospital platform for administrators, doctors, patients and staff, with a HIPAA-aware data governance framework and star schema models that reduced query latency by 60%.
+`Java` `SQL` `Power BI` `Data Modelling`
 
 ---
 
-## 📊 What I'm Working On
+## Research
 
-* Building satellite infrastructure systems (distributed schedulers, AI ops agents, offline-first sync)
-* Exploring advanced Knowledge Graph and LLM applications at CareerGPT
-* Contributing to open-source projects in distributed systems and AI engineering
-
----
-
-## 🤝 Let's Connect!
-
-* 📧 [taswala.n@northeastern.edu](mailto:taswala.n@northeastern.edu)
-* 💼 [linkedin.com/in/nancytaswala23](https://linkedin.com/in/nancytaswala23/)
-* 🐱 [github.com/nancytaswala23](https://github.com/nancytaswala23)
-* 🌐 [nancytaswala23.github.io](https://nancytaswala23.github.io/)
+**[BookShelf: A Book Recommendation System Using Collaborative Filtering](https://ijsrem.com/download/bookshelf-a-book-recommendation-system-using-collaborative-filtering/)**
+*International Journal of Scientific Research in Engineering and Management (IJSREM), SJIF 8.659*
+Collaborative filtering with SVM and Random Forest models on sparse user data, improving recommendation accuracy by 35% over baseline.
 
 ---
 
-If you want to collaborate on distributed systems, AI, or satellite tech — feel free to reach out!
+## Tech stack
 
-⭐️ From [nancytaswala23](https://github.com/nancytaswala23)
+| Area | Tools |
+|---|---|
+| Languages | Python, TypeScript, JavaScript, SQL, Cypher, Java, R |
+| AI and ML | LLMs, GraphRAG, RAG, LangChain, Hugging Face Transformers, PyTorch, Scikit-learn, NLP |
+| Graphs and databases | Neo4j, PostgreSQL, MySQL, SQL Server, SQLite, AWS DynamoDB |
+| Backend and frontend | FastAPI, Flask, React |
+| Cloud and DevOps | AWS (DynamoDB, Lambda, SQS), Docker, GitHub Actions CI/CD |
+| Analytics | Power BI, Tableau, AWS QuickSight, Excel |
+
+---
+
+## Experience
+
+**AI Engineer, Knowledge Graphs & GraphRAG** | Cernuvo | Jan 2026 to Jul 2026
+Built Neo4j knowledge graphs, GraphRAG pipelines and FastAPI microservices for a live platform, working directly with the technical co-founder on architecture.
+
+**Research Assistant** | Dept. of Data Science, University of Mumbai | Jun 2023 to Apr 2024
+Led a recommendation systems study from scoping to peer-reviewed publication.
+
+## Education
+
+**Northeastern University** | MS Information Systems | Aug 2024 to Dec 2026
+Application Engineering, Data Management, Generative AI and LLMs with Graph Databases, UX Design
+
+**University of Mumbai** | BS Data Science | 2021 to 2024
+Machine Learning, Artificial Intelligence, Big Data, Business Intelligence, Agile Software Engineering
+
+---
+
+## Let's connect
+
+Open to conversations about knowledge graphs, GraphRAG, AI engineering and distributed systems.
+
+[Portfolio](https://nancytaswala23.github.io/) · [LinkedIn](https://www.linkedin.com/in/nancytaswala23/) · [Email](mailto:taswalan@gmail.com)
