@@ -1,4 +1,4 @@
-![Nancy Taswala, Full-Stack AI Engineer](assets/header.png)
+
 
 # Hi, I'm Nancy Taswala
 
